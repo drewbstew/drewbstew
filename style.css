@@ -14,6 +14,10 @@ h1 {
   display:block;
 }
 
+.portfolio {
+  background-color: lightblue;
+}
+
 .contact {
   background-color: orange;
 }
