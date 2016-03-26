@@ -28,10 +28,18 @@ h1 {
 
 /*Header*/
 
+.header {
+  position: fixed;
+  background-color: inherit;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+
 .header ul {
   list-style: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header ul li {
@@ -51,6 +59,10 @@ h1 {
 
 .intro h2 {
   text-align: center;
+}
+
+.intro .container {
+  padding-top: 100px;
 }
 
 /*Portfolio Section*/
@@ -83,3 +95,7 @@ h1 {
 .footer ul li:after { content: " \00b7"; }
 
 .footer ul li:last-child:after { content: none; }
+
+.footer .container p {
+  font-size: 10px;
+}
