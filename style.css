@@ -19,21 +19,32 @@ h1 {
 
 .intro .container, .portfolio .container, .contact .container {
   padding-top: 50px;
+  width: 750px;
 }
+
+/*Introduction Section*/
 
 .intro {
-  background-color: yellow;
-  height: 1000px;
+  background: url(overhead_coast.jpg) no-repeat center center fixed;
+  height: 750px;
 }
+
+.intro h2 {
+  text-align: center;
+}
+
+/*Portfolio Section*/
 
 .portfolio {
-  background-color: lightblue;
-  height: 1000px;
+  background: url(painted_mtns.jpg) no-repeat center center fixed;
+  height: 750px;
 }
 
+/*Contact Section*/
+
 .contact {
-  background-color: orange;
-  height: 1000px;
+  background: url(NASA_usa.jpg) no-repeat center center fixed;
+  height: 750px;
 }
 
 .footer {
