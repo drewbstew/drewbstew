@@ -1,5 +1,6 @@
 body {
-  background-color: green;
+  background-color: #00004c;
+  color: white;
 }
 
 * {
@@ -12,15 +13,34 @@ h1 {
 }
 
 .container {
-  width: 80%;
+  width: 750px;
   margin: 0 auto;
   display:block;
 }
 
 .intro .container, .portfolio .container, .contact .container {
   padding-top: 50px;
-  width: 750px;
 }
+
+.container h2 {
+  text-align: center;
+}
+
+/*Header*/
+
+.header ul {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header ul li {
+  display: inline;
+}
+
+.header ul li:after { content: " \00b7"; }
+
+.header ul li:last-child:after { content: none; }
 
 /*Introduction Section*/
 
@@ -43,12 +63,11 @@ h1 {
 /*Contact Section*/
 
 .contact {
-  background: url(NASA_USA_crop1.jpg) no-repeat center center fixed;
+  background: url(star_swirl.jpg) no-repeat center center fixed;
   height: 750px;
 }
 
 .footer {
-  background-color: #C6C6C6;
   padding: 50px;
 }
 
@@ -64,7 +83,3 @@ h1 {
 .footer ul li:after { content: " \00b7"; }
 
 .footer ul li:last-child:after { content: none; }
-
-.footer p {
-  color: #333;
-}
