@@ -9,18 +9,18 @@ body {
 }
 
 .container {
-  width: 750px;
+  max-width: 850px;
   margin: 0 auto;
   display:block;
 }
 
 .intro .container, .portfolio .container, .contact .container {
-  padding: 0px 50px;
   height: 750px;
   margin:auto;
 }
 
 .subdiv {
+  padding: 0px 50px;
   position:relative;
   top: 50%;
   transform: translateY(-50%);
@@ -50,10 +50,6 @@ body {
 .header ul li {
   display: inline;
 }
-
-.header ul li:after { content: " \00b7"; }
-
-.header ul li:last-child:after { content: none; }
 
 /*Introduction Section*/
 
@@ -120,7 +116,8 @@ body {
 /*Footer Section*/
 
 .footer {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer a:visited {
