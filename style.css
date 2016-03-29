@@ -20,6 +20,8 @@ h1 {
 
 .intro .container, .portfolio .container, .contact .container {
   padding-top: 50px;
+  background-color:rgba(169,169,169,0.5);
+  margin:auto;
 }
 
 .container h2 {
@@ -97,5 +99,5 @@ h1 {
 .footer ul li:last-child:after { content: none; }
 
 .footer .container p {
-  font-size: 10px;
+  font-size: 11px;
 }
