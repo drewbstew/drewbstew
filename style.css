@@ -1,5 +1,5 @@
 body {
-  background-color: #00004c;
+  background-color: #D70026;
   color: white;
 }
 
@@ -15,10 +15,12 @@ body {
 }
 
 .intro .container, .portfolio .container, .contact .container {
-  padding: 50px;
-  background-color:rgba(169,169,169,0.5);
+  padding: 0px 50px;
+  height: 750px;
   margin:auto;
-  border-radius: 20px;
+}
+
+.subdiv {
   position:relative;
   top: 50%;
   transform: translateY(-50%);
@@ -58,6 +60,11 @@ body {
 .intro {
   background: url(overhead_coast.jpg) no-repeat center center fixed;
   height: 750px;
+  color: black;
+}
+
+.intro .container {
+  background-color: #F8F5F2;
 }
 
 .intro h2 {
@@ -71,11 +78,19 @@ body {
   height: 750px;
 }
 
+.portfolio .container {
+  background-color: #EDB83D;
+}
+
 /*Contact Section*/
 
 .contact {
   background: url(star_swirl.jpg) no-repeat center center fixed;
   height: 750px;
+}
+
+.contact .container {
+  background-color: #000B29;
 }
 
 .contact ul {
@@ -106,6 +121,10 @@ body {
 
 .footer {
   padding: 50px;
+}
+
+.footer a:visited {
+  color: white;
 }
 
 .footer ul {
