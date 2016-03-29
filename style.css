@@ -38,7 +38,7 @@ body {
   top: 0;
   height: 50px;
   width: 100%;
-  z-index: 9;
+  z-index: 9
 }
 
 .header ul {
@@ -64,7 +64,7 @@ body {
 }
 
 .intro .container {
-  background-color: #F8F5F2;
+  background-color: rgba(248,245,242,0.75);
 }
 
 .intro h2 {
@@ -79,7 +79,7 @@ body {
 }
 
 .portfolio .container {
-  background-color: #EDB83D;
+  background-color: rgba(237, 184, 61, 0.75);;
 }
 
 /*Contact Section*/
@@ -90,7 +90,7 @@ body {
 }
 
 .contact .container {
-  background-color: #000B29;
+  background-color: rgba(0, 11, 41, 0.75);
 }
 
 .contact ul {
