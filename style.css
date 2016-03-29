@@ -19,9 +19,13 @@ h1 {
 }
 
 .intro .container, .portfolio .container, .contact .container {
-  padding-top: 50px;
+  padding: 50px;
   background-color:rgba(169,169,169,0.5);
   margin:auto;
+  border-radius: 20px;
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .container h2 {
@@ -36,6 +40,7 @@ h1 {
   top: 0;
   height: 50px;
   width: 100%;
+  z-index: 9;
 }
 
 .header ul {
@@ -61,10 +66,6 @@ h1 {
 
 .intro h2 {
   text-align: center;
-}
-
-.intro .container {
-  padding-top: 100px;
 }
 
 /*Portfolio Section*/
