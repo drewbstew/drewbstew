@@ -8,10 +8,6 @@ body {
     padding: 0;
 }
 
-h1 {
-  color: blue;
-}
-
 .container {
   width: 750px;
   margin: 0 auto;
@@ -81,6 +77,32 @@ h1 {
   background: url(star_swirl.jpg) no-repeat center center fixed;
   height: 750px;
 }
+
+.contact ul {
+  list-style: none;
+  text-align: center;
+}
+
+.contact ul li {
+  display: inline-flex;
+}
+
+.link-btn {
+  color:black;
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px;
+  border-color: black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.link-btn:hover {
+  color:white;
+  background-color: black;
+}
+
+/*Footer Section*/
 
 .footer {
   padding: 50px;
