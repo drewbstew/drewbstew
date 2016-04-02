@@ -20,7 +20,6 @@ body {
 }
 
 .subdiv {
-  padding: 0px 50px;
   position:relative;
   top: 50%;
   transform: translateY(-50%);
@@ -35,6 +34,7 @@ body {
 .container h2 {
   text-align: center;
   font-family: 'Pacifico', cursive;
+  font-size: 34px;
 }
 
 body {
@@ -50,6 +50,10 @@ body {
   height: 50px;
   width: 100%;
   z-index: 9
+}
+
+.header .container {
+  display: block;
 }
 
 .header ul {
@@ -76,20 +80,24 @@ body {
 }
 
 .header ul li:nth-of-type(1) a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Damion', cursive;
+}
+
+.header ul li:nth-of-type(2) a {
   background-color: rgb(248,245,242);
   color: black;
 }
 
-.header ul li:nth-of-type(2) a {
+.header ul li:nth-of-type(3) a {
   background-color: rgb(237, 184, 61);
 }
 
-.header ul li:nth-of-type(3) a {
+.header ul li:nth-of-type(4) a {
   background-color: rgb(0, 11, 41);
 }
 
-.header .logo {
-}
 
 /*Fake Header*/
 
@@ -106,10 +114,9 @@ body {
 }
 
 .intro .container {
-}
-
-.intro h2 {
-  text-align: center;
+  position:relative;
+  top: 35%;
+  transform: translateY(-65%);
 }
 
 /*Portfolio Section*/
