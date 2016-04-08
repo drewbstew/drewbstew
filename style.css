@@ -95,10 +95,12 @@ body {
 
 .header ul li:nth-of-type(3) a {
   background-color: rgb(237, 184, 61);
+  color: white;
 }
 
 .header ul li:nth-of-type(4) a {
   background-color: rgb(0, 11, 41);
+  color: white;
 }
 
 /*Introduction Section*/
